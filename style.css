@@ -1,0 +1,110 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    font-size: 1.5vw; 
+}
+
+#logo {
+    padding: 8px;
+    margin: 0;
+    font-family: "Fredoka One", sans-serif;
+    width: 16%;
+    text-shadow:
+        1px 1px 0px black,
+        -1px 1px 0px black,
+        1px -1px 0px black, 
+        -1px -1px 0px black; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+body > header {
+    background-color:orange;
+    color: rgb(132, 38, 38);
+}
+
+#main-header {
+    display: flex;
+    height:15vh;
+    align-items:center ;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li{
+    padding: 8px;
+    margin: 15px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+main > div > div > article {
+    width: 70%;
+    margin: auto;
+    padding: 20px; 
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+main {
+    width:100%;
+}
+
+footer {
+    background-color: rgb(0, 255, 0);
+    padding: 16px;
+    text-align: center;
+}
+
+
+#footer-ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+
+#footer-ul > div > li {
+    margin: right 20px; ;
+    text-align: center;
+}
+
+
+img{
+    border-radius: 100%;
+}
