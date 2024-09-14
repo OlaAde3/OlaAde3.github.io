@@ -32,7 +32,7 @@ footer a {
 }
 
 body > header {
-    background-color:orange;
+    background-color:rgb(81, 56, 11);
     color: rgb(132, 38, 38);
 }
 
@@ -86,7 +86,7 @@ main {
 }
 
 footer {
-    background-color: rgb(0, 255, 0);
+    background-color: turquoise;
     padding: 16px;
     text-align: center;
 }
